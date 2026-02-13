@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanju's my Valentine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="bg-orbs"></div>
+
+  <!-- Unified Premium Navbar -->
+  <header class="nav">
+    <div class="logo">💖 Valentine</div>
+
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="letter.html">Letter</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <button class="nav-btn" onclick="window.location.href='plan.html'">
+      Plan Date
+    </button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-left">
+      <h2>
+        Celebrate Our <br />
+        <span>Valentine Day </span>
+      </h2>
+
+      <p>
+        I tried my best to make this website for you 🥺.
+        I hope you like it.</p>
+      <p>We are in long distance but one day we will be together forever Bubu 💖</p>
+
+      <div class="hero-actions">
+        <button class="btn primary" onclick="window.location.href='gallery.html'">
+          Explore Gallery
+        </button>
+
+        <button class="btn ghost" onclick="window.location.href='letter.html'">
+          Read Love Letter
+        </button>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-image">
+        <!-- FIXED: changed .jpg to .jpeg -->
+        <img src="images/pic1.jpeg" alt="Romantic Moment">
+      </div>
+    </div>
+  </section>
+
+  <!-- Love Notes Section -->
+  <section class="notes-section">
+    <h3>Love Notes 💌</h3>
+
+    <div class="notes-grid">
+      <div class="note-card">
+        "Every moment with you feels like magic."
+      </div>
+
+      <div class="note-card">
+        "You are my favorite forever and always."
+      </div>
+
+      <div class="note-card">
+        "Love isn’t perfect, but with you it is beautiful."
+      </div>
+
+      <div class="note-card">
+        "In your smile, I found my home."
+      </div>
+    </div>
+  </section>
+
+  <section class="valentine-question">
+    <h2>Will You Be My Valentine Forever? 💖</h2>
+    <p>Choose honestly… my heart depends on it 🥺</p>
+
+    <div class="valentine-buttons">
+      <button class="val-btn yes-btn" onclick="sayYes()">Yes 💍</button>
+      <button class="val-btn no-btn" onclick="sayNo()">No 💔</button>
+    </div>
+
+    <div class="valentine-response" id="responseBox"></div>
+  </section>
+
+
+  <footer>
+    || Made with ❤️ by Sanuj ||
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
